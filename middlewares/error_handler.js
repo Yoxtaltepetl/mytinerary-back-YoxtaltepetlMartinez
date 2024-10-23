@@ -1,9 +1,9 @@
 const error_handler = (error,req,res,next) => {
-    console.log(error);
+    
     return res.status(500).json({
         success: false,
         response: error,
-        messagge: "Error 500 - Check that all properties are there"
+        messagge: "Error 500 - Internal Server Error"
     })
 }
 export default error_handler

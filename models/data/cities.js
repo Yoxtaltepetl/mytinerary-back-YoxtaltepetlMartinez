@@ -14,7 +14,7 @@ const arrayCities = [
     },
     {
         name: "Rio de Janeiro",
-        photo: "https://images.wallpapersden.com/image/download/rio-de-janeiro-hd-cityscape-brazil_bW5oa2aUmZqaraWkpJRmbmdlrWZnbWY.jpg",
+        photo: "https://zoomdestinos.es/wp-content/uploads/2021/05/destino-rio-de-janeiro-brazil-para-conocer-el-cerro-del-corcovado1.jpg",
         country: "Brazil",
         continent: "South America",
         description: "Famous for its beaches, Carnival festival, and the Christ the Redeemer statue.",

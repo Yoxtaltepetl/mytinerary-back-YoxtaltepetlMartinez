@@ -17,8 +17,9 @@ server.use(express.urlencoded({extended:true}));
 server.use(cors());
 server.use(morgan('dev'));
 server.use('/api', main);
-server.use(bad_request);
 server.use(not_found_handler);
+server.use(bad_request);
+
 server.use(error_handler)
 
 server.listen(PORT, ready);
