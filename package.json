@@ -7,7 +7,9 @@
   "scripts": {
     "start": "node ./server.js",
     "dev" : "nodemon ./server.js",
-    "data": "node ./models/data/cities.js"
+    "data": "node ./models/data/cities.js",
+    "itineraries": "node ./models/data/itineraries.js",
+    "activities": "node ./models/data/activities.js"
   },
   "keywords": [],
   "author": "",
